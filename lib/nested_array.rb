@@ -31,8 +31,7 @@ def array_literal_matrix
     ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"],
     ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"]
   ]
-
-  array.sort!
+  array.sort
 end
 
 def matrix_lookup(matrix, row, column)
