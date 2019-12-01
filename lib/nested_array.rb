@@ -33,7 +33,7 @@ def array_literal_matrix
   ]
   count = 0
   new_array = []
-  array.each do 
+  array.each do
     new_array << array[count].sort
     count += 1
   end
