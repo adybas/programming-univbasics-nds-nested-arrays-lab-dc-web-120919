@@ -32,7 +32,7 @@ def array_literal_matrix
     ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"]
   ]
 
-  array.sort
+  array.sort!
 end
 
 def matrix_lookup(matrix, row, column)
